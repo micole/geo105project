@@ -33,6 +33,8 @@ a:visited {
 	height:auto;
 	position: relative;
 	padding:200px 0;
+	background-image:url('../images/ricepaper_v3.png');
+	background-repeat: repeat;
 }
 
 
@@ -41,6 +43,8 @@ a:visited {
 
 #slide1{
 	background-color:#000;
+	background-image:none;
+
 }
 #slide1 h1 {
 	font-size: 3.8em;
@@ -55,6 +59,9 @@ a:visited {
 	line-height: 0px;
 	padding-bottom:20px;
 	font-weight: 400;
+}
+#slide1 h3{
+	color:#f81d0a;
 }
 
 

@@ -6,6 +6,8 @@ body {
 	font-size: 1em;
 	color: #8a8683;
 	background-color:#ffffff;
+	background-image:url('../images/fabric_of_squares_gray.png');
+	background-repeat: repeat;
 }
 img {
 	max-width: 100%;
@@ -76,6 +78,8 @@ a:visited {
 	height:auto;
 	position: relative;
 	padding:200px 0;
+	background-image:url('../images/fabric_of_squares_gray.png');
+	background-repeat: repeat;
 }
 
 
