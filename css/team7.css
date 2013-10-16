@@ -46,17 +46,43 @@ a:visited {
 	font-size: 3.8em;
 	letter-spacing: -3px;
 	line-height: 0px;
-	color:#f81d0a;
+	color:#FFFFFF;
 	font-weight: 700;
 }
 #slide1 h2 {
 	font-size: 2em;
-	color: #f81d0a;
+	color: #FFFFFF;
 	line-height: 0px;
 	padding-bottom:20px;
 	font-weight: 400;
 }
 
+
+
+
+.transition{
+	background-repeat: no-repeat;
+	background-color: #000;
+	background-size: cover;
+	
+
+}
+
+#transition1{
+	background-image:url('../images/lavaflow.jpg');
+}
+
+#transition2{
+	background-image:url('../images/Miocene_l_16.jpg');
+}
+
+#transition3{
+	background-image:url('../images/Miocene-na.jpg');
+}
+
+#transition4{
+	background-image:url('../images/USA_ne_creighton_ashfallshp2.jpg');
+}
 
 
 
