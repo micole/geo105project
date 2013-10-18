@@ -64,7 +64,7 @@
 		<div class="container clearfix">
 			<div id="content" class="grid_7">
 				<h2>Ecosystem</h2>
-				<p>Across the Northern Hemisphere were wide expanses of grasslands that supported a variety of new mammals.</p> 
+				<p>Across the Northern Hemisphere were wide expanses of grasslands that supported a variety of new mammals (Because of the warm climate, that started wet, and became dry grasslands).</p> 
 				<ul>
 					<li>Giant Perrisodactyl Morpus</li>
 					<li>Daphoenodon Dogs</li>
@@ -119,6 +119,7 @@
 			<div id="content" class="grid_7 omega">
 				<h2>Map</h2>
 				<p>During the Middle Miocene most of the landmass of North America is in place, with the exception of the east coast being underwater, and the north having more land mass than now (USA is connected to Greenland at this time, and the Hudson bay is above sea level).</p>
+				<p>During this time the continents are moving towards one another, coming inwards to each other. Since convergent boundaries have reverse faults, the force is compressing the plates together, creating the volcano that caused the ashfall beds.</p> 
 			</div>
 		</div>
 	</div>
@@ -182,6 +183,112 @@
 		</div>
 	</div>
 
+	<div class="slide transition" id="transition7" data-stellar-background-ratio="0.25">
+		<br>
+		<br>
+	</div>
+
+	<div class="slide" id="slide8" data-slide="8" data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+			<div id="content" class="grid_7">
+				<h2>Rock Dating</h2>
+				<p>The method used to date the rocks in the Ashfall Beds is absolute dating. It was first dated by counting the number of uranium scratches on the particles of glass shards. But more recently it has been dated by measuring the decay of argon isotopes to argon isotopes.</p>
+			</div>
+			<div id="cirdles" class="grid_5 omega">
+				<h3><center>CIRDLES Logo</center></h3>
+				<img src="images/cirdles.png">
+			</div>
+
+		</div>
+	</div>
+
+
+	<div class="slide transition" id="transition8" data-stellar-background-ratio="0.25">
+		<br>
+		<br>
+	</div>
+
+	<div class="slide" id="slide9" data-slide="9" data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+			<div id="content" class="grid_12">
+				<center>
+					<h2>Mike Voorhies</h2>
+					<br>
+					<iframe width="560" height="315" src="http://www.youtube.com/embed/DxlCd5qGBeI?rel=0" frameborder="0" allowfullscreen></iframe>
+				</center>
+			</div>
+			
+
+		</div>
+	</div>
+
+	<div class="slide transition" id="transition9" data-stellar-background-ratio="0.25">
+		<br>
+		<br>
+	</div>
+
+	<div class="slide" id="slide10" data-slide="10" data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+			<div id="content" class="grid_12">
+				<center>
+					<h2>Ashfall Slideshow</h2>
+					<br>
+					<div id="block2">
+						<div id="slideshow2">
+							<div>
+								<img src="images/ss1.jpg">
+							</div>
+							<div>
+								<img src="images/ss2.jpg">
+							</div>
+							<div>
+								<img src="images/ss3.jpg">
+							</div>
+							<div>
+								<img src="images/ss4.jpg">
+							</div>
+							<div>
+								<img src="images/ss5.jpg">
+							</div>
+							<div>
+								<img src="images/ss6.jpg">
+							</div>
+						</div>
+					</div>
+
+				</center>
+			</div>
+			
+
+		</div>
+	</div>
+
+
+	<div class="slide transition" id="transition10" data-stellar-background-ratio="0.25">
+		<br>
+		<br>
+	</div>
+
+	<div class="slide" id="slide11" data-slide="11" data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+			<div id="content" class="grid_3">
+				
+					<h2>Credits</h2>
+					<p>Coding by: Michael Cole</p>
+					<p>Research by: Lauren Ward
+						<br>Peter Noschese
+						<br>Michael Cole </p>
+					<p>Code Hosting: Github</p>
+					<p>Frameworks: jQuery
+						<br>Cool-kitten
+						<br>Grid CSS</p>
+				
+			</div>
+			
+
+		</div>
+	</div>
+
 
 	
 
@@ -209,6 +316,20 @@
 			    .fadeIn(1000)
 			    .end()
 			    .appendTo('#slideshow');
+			},  4000);
+			
+		});
+		$(function() {
+		
+			$("#slideshow2 > div:gt(0)").hide();
+	
+			setInterval(function() { 
+			  $('#slideshow2 > div:first')
+			    .fadeOut(1000)
+			    .next()
+			    .fadeIn(1000)
+			    .end()
+			    .appendTo('#slideshow2');
 			},  4000);
 			
 		});
