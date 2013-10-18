@@ -4,7 +4,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 1em;
-	color: #8a8683;
+	color: #100f0f;
 	background-color:#ffffff;
 }
 img {
@@ -114,8 +114,8 @@ a:visited {
 }
 
 #block{
-	height:400px;
-	width:400px;
+	height:fill;
+	width:fill;
 }
 
 
